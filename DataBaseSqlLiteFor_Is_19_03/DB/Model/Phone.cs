@@ -16,7 +16,7 @@ namespace DataBaseSqlLiteFor_Is_19_03.DB.Model
 
         public override string ToString()
         {
-            return $"{Title}";
+            return $"id:{Id}, Название: {Title}, Компания:{Company.Name}, Цена: {Price} руб.";
         }
 
     }
